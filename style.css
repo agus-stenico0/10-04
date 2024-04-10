@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(13, 124, 124);
+
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 400px;
+    height: 100vh;
+    background-color: coral;
+    margin: 50px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+
+    align-content: space-evenly;
+
+}
+
+.Caja {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+#Caja1 {
+    order: 4;
+
+}
+#Caja2 {
+    
+    order: 3
+}
+
+#Caja3 {
+    order: 1;
+    flex-grow: 8;
+    
+
+}
+#Caja4 {
+    order: 2;
+    flex-grow: 0;
+}
+#Caja5 {
+    order: -1;
+    flex-grow: 2;
+    
+}
+
